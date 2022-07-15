@@ -171,10 +171,10 @@ void setup()
   while (!Serial) delay(1);
   //EEPROM.update(8, 9);     //leave commented, this is used upon the first setup of each board to burn serial number
  
- /*int feedOffset = 1050;
- int returnOffset = 1030;
- int trapOffset = 1597;
- int bulkOffset = 905;
+ /*int feedOffset = 0;
+ int returnOffset = 0;
+ int trapOffset = 0;
+ int bulkOffset = 0;
  */
 /****************PID Initializations*************/
   Circulation.SetMode(AUTOMATIC);
